@@ -1,0 +1,990 @@
+/* propriétés générales */
+
+@font-face {
+    font-family: "Raleway";
+    src: url(Raleway-VariableFont_wght.ttf) format(truetype);
+}
+
+body {
+    max-width: 1440px;
+    height: 1884px;
+    font-family: "Raleway";
+    font-style: normal;
+    margin-left: 20px;
+}
+
+#Titre {
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 70px;
+}
+
+h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-size: 22px;
+}
+
+h2 {
+    font-family: "raleway";
+    font-size: 18px;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.paragraphe {
+    padding-bottom: 20px;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 95%;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.container_logo {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+#logo {
+    color: #0065fc;
+    display: flex;
+    width: 61.09px;
+    height: 19px;
+    align-items: center;
+    margin-left: 20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 50px;
+
+}
+
+
+#menunav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    padding-right: 20px;
+}
+
+#menunav a:hover {
+    border-top: #0065fc solid;
+    padding-top: 57px;
+    color: #0065fc;
+    text-decoration: none;
+}
+
+/* Section 1*/
+
+#section1 {
+    margin-left: 20px;
+}
+
+#recherche {
+    display: flex;
+    height: 49px;
+    width: 30%;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#pin {
+    background-color: #f2f2f2;
+    width: 10%;
+    height: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#champderecherche {
+    height: 100%;
+    width: 70%;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 20px;
+}
+
+#bouton {
+    height: 100%;
+    width: 30%;
+    border: 1px solid #0065fc;
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.loupe {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    display: none;
+}
+
+.ico_loupe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border: none;
+}
+
+/*Section 2*/
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#blocfiltre {
+    width: 60%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.paragraphe2 {
+    font-weight: 700;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.icofiltres {
+    padding-right: 12px;
+    border: #0065fc;
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Eco,
+#Familial,
+#Romantique,
+#Animaux {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+
+#Familial {
+    width: 15%;
+}
+
+#Animaux {
+    width: 25%;
+}
+
+#section2 a {
+    text-decoration: none;
+}
+
+#Eco:hover,
+#Familial:hover,
+#Romantique:hover,
+#Animaux:hover {
+    background-color: #deebff;
+}
+
+.filtreTexte {
+    font-weight: bold;
+    line-height: 19.96px;
+}
+
+#paragraphe2 {
+    height: 20px;
+    margin-top: 20px;
+    border: #0065fc;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.texteP2 {
+    padding-left: 5px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+#icoInfo {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main*/
+
+#main {
+    width: 95%;
+    height: 626px;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+/* Hébergement*/
+
+.titrehébergement {
+    margin-left: 25px;
+}
+
+.titrehébergement_afficher_plus {
+    margin-left: 25px;
+}
+
+#titrePopulaire {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+.icopop {
+    display: flex;
+    margin-left: 40px;
+}
+
+
+
+#hébergementM {
+    width: 70%;
+    height: 100%;
+    background-color: #f2f2f2;
+    margin-right: 40px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#populaires {
+    width: 30%;
+    height: 100%;
+    margin-left: 0px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#cardligne1 {
+    width: 95%;
+    height: 42%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+#cardligne2 {
+    width: 95%;
+    height: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+.card {
+    width: 30%;
+    height: 88%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imghébergement {
+    width: 95%;
+    height: 124px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.description p {
+    margin: -5px 0px 7px 0px;
+    font-size: 14px;
+}
+
+.blueicon {
+    color: #0065fc;
+    border: #0065fc;
+
+}
+
+.imgpopulaire {
+    width: 40%;
+    border: 5px solid #FFFFFF;
+    border-radius: 15px 0px 0px 15px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.cardpopligne {
+    width: 95%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardpop {
+
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-left: 20px;
+    display: flex;
+    width: 95%;
+
+
+}
+
+.container_cardpop {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.container_cardpop2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.descriptionpop {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 100%;
+    width: 60%;
+}
+
+.descriptionpop p {
+    margin: -5px 0px 7px 0px;
+    font-size: 14px;
+}
+
+.padding {
+    margin-top: 20%;
+}
+
+.padding2 {
+    margin-top: 15%;
+}
+
+/* Activités */
+
+#Activité {
+    height: 493px;
+    width: 95%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+#titreactivités {
+    margin-left: 5px;
+    height: 31px;
+    width: 30%;
+}
+
+.cardline3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 100%;
+    height: 444.51px;
+}
+
+.cardactivités {
+    width: 23%;
+    height: 425.51px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.imgactivités {
+    display: flex;
+    width: 100%;
+    height: 377px;
+    border-radius: 20px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.descriptionactivités {
+    margin-left: 20px;
+}
+
+/* Footer */
+
+#footer {
+
+    height: 225px;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around
+}
+
+.blocfooter {
+    width: 33%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.listfooter {
+    margin-top: 15px;
+}
+
+li:first-child {
+    margin-top: 0px;
+}
+
+.titrefooter {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        max-width: 992px;
+        height: 2076px;
+    }
+
+    header {
+        width: 100%;
+
+    }
+
+    #section2 {
+        width: 100%;
+    }
+
+    #recherche {
+        width: 48%;
+    }
+
+    #champderecherche {
+        width: 100%;
+    }
+
+    #blocfiltre {
+        width: 90%;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 1100px;
+    }
+
+    #hébergementM {
+        height: 75%;
+        width: 100%;
+    }
+
+    .card {
+        width: 30%;
+        height: 70%;
+    }
+
+    .container_cardpop2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .titrehébergement_afficher_plus {
+        margin-left: 30px;
+
+    }
+
+    #populaires {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .cardpopligne {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 98%;
+        height: 60%;
+    }
+
+    #titrePopulaire {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 35px;
+    }
+
+    .descriptionpop p {
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    .padding {
+        padding-top: 5%;
+        margin-left: -5px;
+    }
+
+    .padding2 {
+        margin-top: 0px;
+        margin-left: -5px;
+    }
+
+    .cardpop {
+        width: 33%;
+        height: 95%;
+    }
+
+    #Activité {
+        width: 95%;
+        height: 24%;
+    }
+
+    #titreactivités {
+        width: 50%;
+        height: 15%;
+        margin-left: 5px;
+        margin-top: 70px;
+    }
+
+    .cardline3 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardactivités {
+        width: 20%;
+        height: 100%;
+    }
+
+    .imgactivités {
+        height: 180px;
+        width: 100%;
+    }
+
+    .descriptionactivités {
+        width: 80%;
+        height: 20%;
+    }
+
+    #footer {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+        height: 4500px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header {
+        width: 95%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 1px #f2f2f2;
+    }
+
+    #menunav {
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-inline-start: 0px;
+        padding-right: 0px;
+    }
+
+    #menunav :hover {
+        border-top: none;
+        border-bottom: #0065fc solid;
+        padding-bottom: 15px;
+        color: #0065fc;
+        text-decoration: none;
+    }
+
+    #menunav a:hover {
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .listnav {
+        width: 50%;
+        height: 100%;
+    }
+
+
+
+    #section1 {
+        width: 90%;
+        height: 4%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .paragraphe {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    form {
+        display: flex;
+        width: 100%;
+
+    }
+
+    #recherche {
+        width: 100%;
+    }
+
+    #champderecherche {
+        width: 100%;
+    }
+
+    #bouton {
+        display: none;
+    }
+
+    .loupe {
+        display: flex;
+        height: 100%;
+        width: 20%;
+        border: 1px solid #0065fc;
+        background-color: #0065fc;
+        border-radius: 0px 15px 15px 0px;
+        color: white;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section2 {
+        width: 95%;
+        height: 200px;
+        display: flex;
+    }
+
+    .paragraphe2 {
+        display: flex;
+        width: 95%;
+    }
+
+    #blocfiltre {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+
+    #Eco,
+    #Familial,
+    #Romantique,
+    #Animaux {
+        width: 48%;
+        margin-top: 10px;
+        font-size: 11px;
+        justify-content: flex-start;
+    }
+
+    .icofiltres {
+        margin-left: 10px;
+    }
+
+    .texteP2 {
+        margin-top: 120px;
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    #icoInfo {
+        margin-top: 90px;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 2100px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    #populaires {
+        height: 580px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #titrePopulaire {
+        display: flex;
+        width: 90%;
+        height: 5%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .cardpopligne {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .cardpop {
+        width: 93%;
+        height: 32%;
+        margin-left: 10px;
+    }
+
+    .container_cardpop {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container_cardpop2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .descriptionpop {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .descriptionpop p {
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    .padding {
+        margin-top: 8px;
+    }
+
+    .padding2 {
+        margin-top: 10px;
+    }
+
+    #hébergementM {
+        width: 100%;
+        height: 2000px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white
+    }
+
+    .titrehébergement_afficher_plus {
+        display: none;
+    }
+
+    #cardligne1,
+    #cardligne2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 95%;
+        height: 50%;
+        margin-left: 0px;
+    }
+
+    #cardligne2 {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 100%;
+        height: 32%;
+    }
+
+    .description {
+        width: 100%;
+        height: 50%;
+    }
+
+    #Activité {
+        width: 95%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titreactivités {
+        width: 40%;
+        height: 3%;
+        margin-top: 0px;
+    }
+
+    .cardline3 {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    .cardactivités {
+        height: 23%;
+        width: 100%;
+    }
+
+    .imgactivités {
+        height: 150px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 491px;
+        margin-left: 0px;
+    }
+
+    .blocfooter {
+        height: 30%;
+        width: 90%;
+    }
+}
